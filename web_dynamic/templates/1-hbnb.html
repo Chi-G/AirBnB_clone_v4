@@ -3,32 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HBNB - Select Amenities</title>
-    <link rel="stylesheet" type="text/css" href="static/styles/1-hbnb.css">
+    <title>HBNB 1</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="static/scripts/1-hbnb.js?cache_id={{ cache_id }}"></script>
+    <script src="../static/scripts/1-hbnb.js?f834413e-0aa9-4767-b64a-c92db9cb1f82"></script>
 </head>
 <body>
-    <header>
-        <h1>HBNB - Select Amenities</h1>
-    </header>
-    <div class="filters">
-        <h2>Amenities:</h2>
-        <ul class="amenities">
-            <li><input type="checkbox" data-id="1" data-name="Wifi"> Wifi</li>
-            <li><input type="checkbox" data-id="2" data-name="Cable TV"> Cable TV</li>
-            <!-- Add more amenities here -->
-        </ul>
-    </div>
-    <div class="results">
+    <h1>HBNB 1</h1>
+    <ul id="amenities_list">
+        <li><input type="checkbox" data-id="1" data-name="Wifi"> Wifi</li>
+        <li><input type="checkbox" data-id="2" data-name="Parking"> Parking</li>
+    </ul>
+    <div id="selected_amenities">
         <h2>Selected Amenities:</h2>
-        <div id="selected-amenities">
-            <h4>No amenities selected</h4>
-        </div>
+        <h4 id="amenities_text"></h4>
     </div>
-    <footer>
-        <p>© 2023 HBNB. All rights reserved.</p>
-    </footer>
 </body>
 </html>
-
